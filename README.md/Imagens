@@ -1,0 +1,352 @@
+# DOCUMENTAÇÃO DO PROTÓTIPO – GREENSTOP
+
+### Greenstop – Plataforma de Caronas Compartilhadas para Universitários
+
+O Greenstop é um aplicativo mobile desenvolvido para conectar estudantes universitários que desejam compartilhar viagens de forma econômica, sustentável e segura.
+
+A plataforma permite que usuários atuem como passageiros, motoristas ou ambos, oferecendo recursos para busca de caronas, oferta de viagens, gerenciamento de perfil, histórico de viagens e avaliações entre usuários.
+
+O protótipo foi desenvolvido no Figma com foco em experiência do usuário (UX) e interface moderna (UI), simulando o funcionamento real da aplicação.
+
+---
+
+
+**Status Atual:** Ready for Dev (Pronto para Desenvolvimento)
+
+O protótipo possui:
+
+- Fluxos principais navegáveis
+- Telas conectadas por interações
+- Componentes visuais definidos
+- Navegação simulada
+- Estrutura de experiência do usuário validada
+
+Funcionalidades avançadas como banco de dados, geolocalização em tempo real e pagamentos ainda não foram implementadas por se tratar de um protótipo navegável.
+
+---
+
+## 3. Links Úteis
+
+### Arquivo Figma
+
+**Link do Projeto:**  
+https://www.figma.com/design/DvZxPpxxIpms1omIxPFmfR/GreenStop?node-id=0-1&m=dev&t=DeaSSOjDCHU7BS42-1
+
+### Protótipo Interativo
+
+**Link do Prototype:**  
+https://www.figma.com/proto/DvZxPpxxIpms1omIxPFmfR/GreenStop?node-id=0-1&t=DeaSSOjDCHU7BS42-1
+
+---
+
+## 4. Fluxos de Usuário (User Flows)
+
+### Fluxo 1 – Cadastro de Novo Usuário
+
+**Objetivo:**  
+Permitir que um novo usuário crie uma conta na plataforma.
+
+#### Fluxo
+
+```text
+Splash Screen
+↓
+Tela Inicial
+↓
+Começar Agora
+↓
+Cadastro
+↓
+Escolha de Perfil
+↓
+Home
+```
+
+#### Telas Envolvidas
+
+- Splash Screen
+- Tela Inicial
+- Cadastro
+- Escolha de Perfil
+- Home
+
+#### Evidência
+
+Inserir captura de tela do fluxo de cadastro.
+
+---
+
+### Fluxo 2 – Login
+
+**Objetivo:**  
+Permitir acesso de usuários já cadastrados.
+
+#### Fluxo
+
+```text
+Tela Inicial
+↓
+Já Tenho Conta
+↓
+Login
+↓
+Home
+```
+
+#### Telas Envolvidas
+
+- Tela Inicial
+- Login
+- Home
+
+#### Evidência
+
+Inserir captura de tela do fluxo de login.
+
+---
+
+### Fluxo 3 – Buscar Carona
+
+**Objetivo:**  
+Permitir que usuários encontrem caronas disponíveis.
+
+#### Fluxo
+
+```text
+Home
+↓
+Buscar Carona
+↓
+Lista de Caronas
+↓
+Detalhes da Carona
+↓
+Solicitar Carona
+↓
+Confirmação
+```
+
+#### Telas Envolvidas
+
+- Home
+- Buscar Carona
+- Lista de Caronas
+- Detalhes da Carona
+- Confirmação
+
+#### Evidência
+
+Inserir captura de tela do fluxo de busca.
+
+---
+
+### Fluxo 4 – Avaliação da Viagem
+
+**Objetivo:**  
+Permitir que usuários avaliem a experiência após a viagem.
+
+#### Fluxo
+
+```text
+Confirmação
+↓
+Avaliação
+↓
+Perfil
+```
+
+#### Telas Envolvidas
+
+- Confirmação
+- Avaliação
+- Perfil
+
+#### Evidência
+
+Inserir captura de tela do fluxo de avaliação.
+
+---
+
+### Fluxo 5 – Perfil do Usuário
+
+**Objetivo:**  
+Permitir gerenciamento das informações pessoais.
+
+#### Fluxo
+
+```text
+Home
+↓
+Perfil
+```
+
+#### Funcionalidades
+
+- Dados pessoais
+- Histórico de viagens
+- Avaliações
+- Preferências
+- Configurações
+- Logout
+
+#### Evidência
+
+Inserir captura de tela da tela de perfil.
+
+---
+
+## 5. Instruções de Navegação
+
+### Navegação Geral
+
+O protótipo utiliza:
+
+- On Click
+- Navigate To
+- Smart Animate
+
+### Botões Clicáveis
+
+#### Tela Inicial
+
+- Começar Agora
+- Já Tenho Conta
+
+#### Login
+
+- Entrar
+- Cadastrar-se
+
+#### Cadastro
+
+- Criar Conta
+- Fazer Login
+
+#### Escolha de Perfil
+
+- Passageiro
+- Motorista
+- Os Dois
+
+#### Home
+
+- Buscar Carona
+- Oferecer Carona
+- Minhas Viagens
+- Mensagens
+- Perfil
+
+#### Busca
+
+- Buscar
+
+#### Lista de Caronas
+
+- Card da Carona
+
+#### Detalhes
+
+- Solicitar Carona
+
+#### Avaliação
+
+- Enviar Avaliação
+- Pular
+
+#### Perfil
+
+- Dados pessoais
+- Carros
+- Preferências
+- Pagamentos
+- Notificações
+- Ajuda
+- Sair
+
+### Atalhos do Figma
+
+| Tecla | Função |
+|---------|---------|
+| R | Reiniciar Protótipo |
+| F | Tela Cheia |
+| ESC | Sair da Apresentação |
+| ← → | Navegar entre telas |
+
+---
+
+## 6. Limitações e Bugs Conhecidos
+
+Por se tratar de um protótipo navegável, algumas funcionalidades são simuladas.
+
+### Limitações
+
+- Não existe autenticação real.
+- Não há banco de dados.
+- As caronas exibidas são estáticas.
+- Não há integração com mapas.
+- Não existe sistema de pagamento.
+- Não existe chat funcional.
+- As notificações são ilustrativas.
+- Não há geolocalização em tempo real.
+
+### Bugs Conhecidos
+
+- Algumas telas podem não possuir retorno para a etapa anterior.
+- Campos de formulário não armazenam informações.
+- As avaliações não são persistidas.
+- O histórico de viagens é apenas visual.
+- Não há validação de e-mail e senha.
+
+---
+
+## 7. Tecnologias Utilizadas
+
+### Ferramentas
+
+- Figma
+
+### Conceitos Aplicados
+
+- UX Design
+- UI Design
+- Wireframe
+- Prototipação Interativa
+- Design System
+- Componentização
+
+### Tipografia
+
+| Estilo | Fonte |
+|---------|---------|
+| Títulos | Poppins |
+| Corpo de Texto | Inter |
+
+### Paleta de Cores
+
+| Elemento | Cor |
+|-----------|-----------|
+| Verde Principal | #22C55E |
+| Verde Escuro | #166534 |
+| Branco | #FFFFFF |
+| Cinza Claro | #F8FAFC |
+
+---
+
+## 8. Objetivo do Projeto
+
+O Greenstop busca incentivar a mobilidade compartilhada entre universitários, reduzindo custos de transporte, promovendo sustentabilidade e fortalecendo a integração entre estudantes da comunidade acadêmica.
+
+Além de oferecer uma alternativa econômica ao deslocamento diário, o aplicativo contribui para a redução da emissão de poluentes e para o fortalecimento da comunidade universitária por meio da colaboração entre seus usuários.
+
+Greenstop/
+│
+├── README.md
+│
+├── images/
+│   ├── splash-screen.png
+│   ├── telas-app.png
+│   ├── ligacoes-home.png
+│   ├── fluxo-login.png
+│   └── fluxo-busca.png
+│
+└── docs/
